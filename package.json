@@ -1,21 +1,11 @@
 {
   "name": "nlw-e-sports",
+  "type": "module",
   "version": "1.0.0",
   "description": "Meu acompanhamento do  porjeto da Rocketseat do \"find your  duo\"",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
-  },
-  "lint-staged": {
-    ".js": [
-      "ts-standard --fix",
-      "git add ."
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "build":"tsc"
   },
   "repository": {
     "type": "git",

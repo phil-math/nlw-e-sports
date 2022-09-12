@@ -6,7 +6,9 @@
       "compilerOptions": {}
     },
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "ES2020",
+    "rootDir": "./src",
+    "outDir": "./build",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
