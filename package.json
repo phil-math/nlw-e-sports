@@ -12,9 +12,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/phil-math/nlw-e-sports/issues"
   },
-  "homepage": "https://github.com/phil-math/nlw-e-sports#readme"
+  "homepage": "https://github.com/phil-math/nlw-e-sports#readme",
+  "devDependencies": {
+    "ts-standard": "^11.0.0"
+  }
 }
