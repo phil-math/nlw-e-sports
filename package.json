@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "lint-staged":{
+    ".js":["ts-standard --fix","git add"]
+  },
+  "husky":{
+    "hooks":{
+      "pre-commit":"lint-staged"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/phil-math/nlw-e-sports.git"
@@ -18,6 +26,8 @@
   },
   "homepage": "https://github.com/phil-math/nlw-e-sports#readme",
   "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "ts-standard": "^11.0.0"
   }
 }
