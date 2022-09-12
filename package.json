@@ -1,0 +1,20 @@
+{
+  "name": "nlw-e-sports",
+  "version": "1.0.0",
+  "description": "Meu acompanhamento do  porjeto da Rocketseat do \"find your  duo\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phil-math/nlw-e-sports.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phil-math/nlw-e-sports/issues"
+  },
+  "homepage": "https://github.com/phil-math/nlw-e-sports#readme"
+}
