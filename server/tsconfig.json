@@ -6,7 +6,7 @@
       "compilerOptions": {}
     },
   "compilerOptions": {
-    "module": "ES2020",
+    "module": "CommonJS",
     "rootDir": "./src",
     "outDir": "./build",
     "moduleResolution": "node",
