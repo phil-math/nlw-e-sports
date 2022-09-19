@@ -1,0 +1,10 @@
+{
+    ".ts": [
+      "ts-standard --fix",
+      "git add ."
+    ],
+    ".js":[
+        "standard --fix",
+        "git add ."
+    ]
+}
